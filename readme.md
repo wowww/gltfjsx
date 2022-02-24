@@ -2,6 +2,22 @@ https://user-images.githubusercontent.com/2223602/126318148-99da7ed6-a578-48dd-b
 
 <br />
 <br/>
+## Getting Started
+
+Install Node.js if you don't already have it, and then:
+
+``` node js
+npm install -g gltf-pipeline
+```
+
+### Converting a glTF to Draco glTF
+
+``` node js
+gltf-pipeline -i model.gltf -o modelDraco.gltf -d
+```
+
+<br />
+<br/>
 
 [![Version](https://img.shields.io/npm/v/@react-three/gltfjsx?style=flat&colorA=000000&colorB=000000)](https://www.npmjs.com/package/@react-three/gltfjsx) [![Discord Shield](https://img.shields.io/discord/740090768164651008?style=flat&colorA=000000&colorB=000000&label=discord&logo=discord&logoColor=ffffff)](https://discord.gg/ZZjjNvJ)
 
